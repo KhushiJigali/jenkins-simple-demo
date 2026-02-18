@@ -5,7 +5,7 @@ pipeline {
 
     stage('Clone') {
       steps {
-        git url: 'https://github.com/KhushiJigali/jenkins-simple-demo/new/main',
+        git url: 'https://github.com/KhushiJigali/jenkins-simple-demo.git',
           branch: 'main'
       }
     }
