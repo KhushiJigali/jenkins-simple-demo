@@ -16,6 +16,11 @@ pipeline {
         sh './script.sh'
       }
     }
+
+    stage('Run Python Script') {
+      steps {
+        sh 'chmod +x script.sh'
+        sh './script.sh'
   }
 }
           
